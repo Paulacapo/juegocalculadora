@@ -1,0 +1,49 @@
+*    { box-sizing: border-box; }
+html { font: 16px sans-serif;  }
+body {
+    /* min-height       : 100vh; */
+    /* max-width        : 45vw; */
+    z-index: -1;
+    font: 20px sans-serif;
+    text-align       : center;
+
+}
+
+#calculator {
+    background-image: url("/foto1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat ;
+    z-index: 1;
+    margin: 20%;
+    height: 170%;
+
+}
+
+h1{text-align: center; margin: 10px; margin-top: 20px}
+#cabecera{text-align: center;
+          margin-top: 10%;}
+#caja{text-align: center;}
+#respuesta{text-align: center;
+            margin-top: 5%;}
+#miopcion{text-align: center;
+        background-color: transparent;
+        border: none;
+        padding: 70px;
+        width: 700px;
+        font-size: 50px;
+        }
+#boton{background-color: transparent;
+       border: none;
+       margin-top: 65%;
+       padding: 75px;
+       margin-left: 67%;}
+    
+
+
+/* Para el contador hacia atras*/
+#countdown {
+    font-size: 30px;
+    color: red;
+    margin-top: 7%;
+    margin-right: 60%;
+  }
